@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Talha | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="port.png">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="images/4.jpg" alt="Profile" />
+            <span>My Portfolio</span>
+            <button class="menu-toggle">☰</button>
+        </div>
+        <ul>
+            <li><a href="#general-view">Home</a></li>
+            <li><a href="#about_me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="general-view">
+        <h1>Muhammad<br>Talha</h1>
+        <h2>CS Student | Web Development & Flutter | <br>Learning AI & Data Science | Building Future‑Ready Skills</h2>
+        <div class="view-buttons">
+            <a href="#projects"><button>View Work</button></a>
+            <a href="#contact"><button>Contact</button></a>
+        </div>
+
+    </section>
+
+    <section id="about_me">
+
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                As a dedicated Computer Science student, I'm passionate about turning innovative ideas into real-world
+                solutions. My core strengths lie in App Development using technologies like flutter,dart,etc, along with
+                Web Development. <br>
+
+                Eager to stay ahead of the curve, I'm actively exploring the transformative fields of Artificial
+                Intelligence and Data Science, developing the future ready skills needed to solve tomorrow's challenges
+                today. <br>
+
+                With a strong focus on continuous learning and real world impact, I aim to build smart, efficient, and
+                user-centric software that drives progress. I believe technology isn’t just about code,it's about
+                creating meaningful change.
+            </p>
+            <div id="icon">
+                <a href="https://github.com/talha-23" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/muhammad-talha-cs" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="images/IMG_0554.JPG" alt="Muhammad Talha Profile" />
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-section">
+            <h1>Skills</h1>
+
+            <div class="nav-tabs">
+                <button class="tab-link active" onclick="openTab('technical')">Technical Skills</button>
+                <button class="tab-link" onclick="openTab('soft')">Soft Skills</button>
+                <button class="tab-link" onclick="openTab('tools')">Tools & Languages</button>
+            </div>
+
+            <div id="technical" class="tab-content active">
+                <h2 class="container-title">Categories</h2>
+                <div class="section-container">
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="skill-title">App Development</div>
+                        <div class="skill-desc">Building cross-platform mobile applications using Flutter and Dart.
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <div class="skill-title">Web Development</div>
+                        <div class="skill-desc">Creating websites using HTML, CSS, JavaScript, etc.</div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="skill-title">Programming</div>
+                        <div class="skill-desc">Writing code in languages like C++, Python, Java.</div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <div class="skill-title">Database</div>
+                        <div class="skill-desc">Managing data using SQL,NoSQL, Firebase and Sqflite systems.</div>
+                    </div>
+
+                    <!-- <div class="skill-box">
+                        
+                    </div> -->
+                </div>
+            </div>
+
+            <div id="soft" class="tab-content">
+                <h2 class="container-title">Top Soft Skills</h2>
+                <div class="section-container">
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                        Communication
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-users"></i></div>
+                        Teamwork
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-puzzle-piece"></i></div>
+                        Problem Solving
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-clock"></i></div>
+                        Time Management
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-random"></i></div>
+                        Adaptability
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        Critical Thinking
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                        Creativity
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="tools" class="tab-content">
+                <h2 class="container-title">Tools & Tech Stack</h2>
+                <div class="section-container">
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <div class="skill-title">Git & GitHub</div>
+                        <div class="skill-desc">Version control and collaborative coding.</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <div class="skill-title">VS Code</div>
+                        <div class="skill-desc">Popular editor for coding with extensions.</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="skill-title">Flutter</div>
+                        <div class="skill-desc">Building Cross Platform Mobile Applications.</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <div class="skill-title">MySQL</div>
+                        <div class="skill-desc">Relational database management system.</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                        <div class="skill-title">MongoDB</div>
+                        <div class="skill-desc">NoSQL database management system.</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <div class="skill-title">C++</div>
+                        <div class="skill-desc">C++ for learning the basics of programming</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-fire"></i></div>
+                        <div class="skill-title">Firebase</div>
+                        <div class="skill-desc">Database for real time data synchronization.</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <div class="skill-title">Python</div>
+                        <div class="skill-desc">High-level programming language for all purposes.</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <div class="skill-title">JavaScript</div>
+                        <div class="skill-desc">Language for web development and interactivity.</div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fab fa-java"></i></div>
+                        <div class="skill-title">Java</div>
+                        <div class="skill-desc">Language for learning advance programming.</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <!-- PROJECTS SECTION -->
+        <div class="skills-section">
+            <h1>Projects</h1>
+
+            <div class="nav-tabs">
+                <button class="tab-link" onclick="openTab('flutter-projects')">Flutter</button>
+                <button class="tab-link active" onclick="openTab('frontend-projects')">Front-End</button>
+                <button class="tab-link" onclick="openTab('cpp-projects')">C++</button>
+            </div>
+
+            <div id="frontend-projects" class="tab-content active">
+                <h2 class="container-title">Front-End Projects</h2>
+                <div class="section-container">
+
+                    <div class="project-box">
+                        <a href="https://talha-23.github.io/Ecommerce-project/E%20Commerce.html" target="_blank">Online
+                            Sale Website</a>
+                        <img src="images/Sale web.png" width="150" height="100" alt="Ecommerce Website">
+                        <p>Personal portfolio website made using HTML, CSS and JavaScript to showcase projects and
+                            skills.</p>
+                    </div>
+
+                    <div class="project-box">
+                        <a href="https://talha-23.github.io/Car-Sales-Hub/" target="_blank">Car Sales Hub</a>
+                        <img src="images/Car Sales Hub.png" width="150" height="100" alt="Car Sales Hub">
+                        <p>Car sales website with filtering and search functionality as my First Semester Project.</p>
+                    </div>
+
+                    <div class="project-box">
+                        <a href="https://talha-23.github.io/Clock/" target="_blank">Clock</a>
+                        <img src="images/clock.png" width="150" height="100" alt="Clock">
+                        <p>Interactive digital clock with time zone support.</p>
+                    </div>
+                    <div class="project-box">
+                        <a href="https://talha-23.github.io/Frontend_Projects/" target="_blank">more</a>
+                        <img src="images/more front end.png" width="150" height="100" alt="Clock">
+                        <p>More Front-End Projects,including Quiz app,Rock Paper Scissors,Random Joke Generator etc.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div id="flutter-projects" class="tab-content">
+                <h2 class="container-title">Flutter Projects</h2>
+                <div class="section-container">
+                    <div class="project-box">
+                        <a href="https://github.com/talha-23/SCAEN_Flutter-Based-Appication.git"
+                            target="_blank">Scaen</a>
+                        <img src="images/scaen.png" width="150" height="100" alt="Scaen">
+                        <p>A social Emergency Network App.My first ever flutter project as my Semester project</p>
+
+                    </div>
+                    <div class="project-box">
+                        <a href="https://github.com/talha-23/Medicata.git" target="_blank">Medicata</a>
+                        <img src="images/icon.png" width="150" height="100" alt="Medicata">
+                        <p>Mobile app for Recording medication.(on going)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cpp-projects" class="tab-content">
+                <h2 class="container-title">C++ Projects</h2>
+                <div class="section-container">
+                    <div class="project-box">
+                        <a href="https://github.com/talha-23/C-Projects/tree/main/CarShowroom%20Managments" target="_blank">Car Showroom Management System</a>
+                        <img src="images/car.png" width="150" height="100" alt="Bank Management System">
+                        <p>A console-based application for managing car showroom accounts, transactions, and customer information.</p>
+                    </div>
+                    <div class="project-box">
+                        <a href="https://github.com/talha-23/C-Projects/tree/main/Parking%20Management" target="_blank">Parking System</a>
+                        <img src="images/parking.png" width="150" height="100" alt="Parking System">
+                        <p>A console-based application for managing parking lot operations, including vehicle entry, exit,
+                            and space allocation.</p>
+                    </div>
+                    <div class="project-box">
+                        <a href="https://github.com/talha-23/C-Projects/tree/main/Student%20Reg%20System" target="_blank">Student Registration System</a>
+                        <img src="images/students.png" width="150" height="100" alt="Student Registration System">
+                        <p>A console-based application for managing student registration, including course enrollment and grade tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Feel free to reach out for collaborations or just a friendly hello. I'm always
+                open to discussing new projects and opportunities.</p>
+
+            <div class="social-grid">
+                <div class="social-card">
+                    <i class="fab fa-github social-icon"></i>
+                    <h3 class="social-title">GitHub</h3>
+                    <a href="https://github.com/talha-23" target="_blank" class="social-link">github.com/talha-23</a>
+                </div>
+
+                <div class="social-card">
+                    <i class="fab fa-linkedin-in social-icon"></i>
+                    <h3 class="social-title">LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/muhammad-talha-cs" target="_blank"
+                        class="social-link">linkedin.com/in/muhammad-talha-cs</a>
+                </div>
+
+                <div class="social-card">
+                    <i class="fab fa-instagram social-icon"></i>
+                    <h3 class="social-title">Instagram</h3>
+                    <a href="https://www.instagram.com/ft._.talha/" target="_blank"
+                        class="social-link">instagram.com/ft._.talha</a>
+                </div>
+
+                <div class="social-card">
+                    <i class="fas fa-envelope social-icon"></i>
+                    <h3 class="social-title">Email</h3>
+                    <a href="mailto:muhammadtalha8150@gmail.com" class="social-link">muhammadtalha8150@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt info-icon"></i>
+                    <span>Islamabad, Pakistan</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone info-icon"></i>
+                    <span>+92 321 1794517</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <h1>Lets Work Together</h1>
+            </div>
+
+            <p class="footer-copy">
+                &copy; 2025 Muhammad Talha. All rights reserved. |
+                <a href="#" style="color: var(--text-light); text-decoration: none;">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    function openTab(tabId) {
+        const tabs = document.querySelectorAll('.tab-content');
+        tabs.forEach(tab => tab.classList.remove('active'));
+
+        const buttons = document.querySelectorAll('.tab-link');
+        buttons.forEach(btn => btn.classList.remove('active'));
+
+        document.getElementById(tabId).classList.add('active');
+
+        event.target.classList.add('active');
+    }
+
+    function openTab(tabId) {
+        const tabs = document.querySelectorAll('.tab-content');
+        const buttons = document.querySelectorAll('.tab-link');
+
+        tabs.forEach(tab => tab.classList.remove('active'));
+        buttons.forEach(btn => btn.classList.remove('active'));
+
+        document.getElementById(tabId).classList.add('active');
+        event.target.classList.add('active');
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Animation trigger when section comes into view
+        const contactSection = document.querySelector('#contact');
+        const contactContainer = document.querySelector('.contact-container');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    contactContainer.classList.add('visible');
+
+                    // Add ripple effect animation
+                    const ripple = document.createElement('div');
+                    ripple.style.position = 'absolute';
+                    ripple.style.width = '100%';
+                    ripple.style.height = '100%';
+                    ripple.style.top = '0';
+                    ripple.style.left = '0';
+                    ripple.style.background = 'radial-gradient(circle, rgba(0,240,255,0.2) 0%, transparent 70%)';
+                    ripple.style.zIndex = '-1';
+                    ripple.style.opacity = '0';
+                    ripple.style.transform = 'scale(0.5)';
+                    ripple.style.transition = 'opacity 1s ease, transform 1.5s ease';
+                    contactSection.appendChild(ripple);
+
+                    setTimeout(() => {
+                        ripple.style.opacity = '1';
+                        ripple.style.transform = 'scale(1.5)';
+                    }, 50);
+
+                    setTimeout(() => {
+                        ripple.style.opacity = '0';
+                    }, 1000);
+
+                    setTimeout(() => {
+                        contactSection.removeChild(ripple);
+                    }, 2000);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        observer.observe(contactSection);
+
+        // Hover effect for social cards
+        const socialCards = document.querySelectorAll('.social-card');
+        socialCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                const icon = card.querySelector('.social-icon');
+                icon.style.transform = 'scale(1.2) rotate(5deg)';
+            });
+
+            card.addEventListener('mouseleave', () => {
+                const icon = card.querySelector('.social-icon');
+                icon.style.transform = 'scale(1) rotate(0)';
+            });
+        });
+    });
+
+    document.querySelector('.menu-toggle').addEventListener('click', function () {
+        document.querySelector('nav ul').classList.toggle('show');
+    });
+</script>
+
+</html>
