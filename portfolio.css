@@ -155,6 +155,7 @@ nav ul li:hover {
 nav ul li:hover::after {
     width: 100%;
 }
+
 @media (max-width: 768px) {
     nav {
         top: 10px;
@@ -778,5 +779,39 @@ section p {
     .skill-box,
     .project-box {
         width: 150px;
+    }
+}
+
+/* Fix for project box images on mobile */
+.project-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .project-box {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    
+    .project-box img {
+        width: 100%;
+        height: auto;
+        max-height: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-container {
+        padding: 0 10px;
+    }
+    
+    .project-box {
+        max-width: 100%;
+        width: 100%;
     }
 }
